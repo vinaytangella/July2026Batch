@@ -1,0 +1,24 @@
+conditional statements
+loops
+
+traffic lights
+
+red
+green
+yellow/orange
+
+if color is red - you should stop
+if color is green - you can go
+if color is orange/yellow - slow/down prepared 
+
+if else conditional
+
+if color == 'red':
+    print('you should stop')
+if color == 'green':
+    print('you should go')
+if color == 'orange':
+    print('you should slow down')
+
+= is for assignment
+== is for comparision
