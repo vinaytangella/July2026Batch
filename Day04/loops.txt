@@ -1,0 +1,19 @@
+birthday - 5
+
+loops - for, while
+
+for i in range(5):
+    print('put candle', i)
+
+
+range(start, stop, increment)
+
+range(5) -> 0,1,2,3,4
+i -> taking a candle
+print('put candle', i) - placing a candle on cake
+
+cooking a dish - put salt - controlled env
+
+while salt_is_not_enough:
+    action - put salt
+
