@@ -1,0 +1,58 @@
+loops
+for-while
+
+data structures - data types
+
+in loop - condition
+in condition
+
+if True:
+    while loop:
+        break
+
+while loop:
+    if condition
+
+for i in range(5):
+    for j in range(6):
+        break
+
+int, str, bool, float
+
+lists, dictionary, tuple, set
+
+arrays = [1,2,3]
+
+lists = []
+
+l = [] #declare a lists
+l.append(1) # adding elements
+l.insert(0,0) #adding in specific index
+# zero based index 
+len(l) # len of list
+del l[index] # deleting an element 
+slicing - l[10:101] 10 and 101 are indices 10 is inclusive end index is exclusive
+reverse a list - l[::-1]
+https://docs.python.org/3/library/stdtypes.html#list  - use this link to practise list
+
+l.extend(s) # here l and s are 2 lists extend can be used to add to lists alng with s + l
+
+#memory - 2 types heap, stack
+list - heap 
+
+l = [] 1 million items million-blocks-next-to-each-other
+l + r ->  2 million continuos memory blocks
+
+reverse a list
+
+list is mutable, it is ordered
+
+l[::-1]
+
+s = 'sam'
+mas
+
+k = list(s)
+reverse a string
+
+''.join(k) - make a string out of list
