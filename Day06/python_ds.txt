@@ -1,0 +1,28 @@
+Python data structures
+
+list - ordered, mutable, allows duplicates
+list[0,1,2] - 
+
+tuple, dictionary, set
+
+tuple - ('a','b','c') immutable, allow duplicates, ordered (1,2,3)
+
+set - {1,2,3} is not ordered, does not allow duplicates, yes mutable
+
+{1,2,3} == {3,2,1}
+
+dictionary - {k:v} k - key always be unique v - values
+
+d = {'04k81er567': 'Sam', '04k81er568': 'Sam'} ordered, mutable, duplictes - keys cannot be duplicated
+
+understanding - students - roll no, unique id, 
+
+student registery - 04k81er567 - metadata - [first name, last name, age, sex, father's name]
+
+#represent student data
+student_data = [04k81er567,[metadata],04k81er568,[metadata]]
+student_data[3]  - father's name
+
+d = {'04k81er567':{'first name':'', 'last name':'', 'age':'', 'sex':'', 'fathers name':}}
+
+enumerate - 
