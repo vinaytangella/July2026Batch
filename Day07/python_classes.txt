@@ -1,0 +1,8 @@
+class - blueprint
+car - class
+properties - speed,style, brakes, name, make, model, year, steering, color
+
+actions - what can that object do
+
+brakes, race, turn
+
