@@ -1,0 +1,41 @@
+instance methods
+class methods
+static methods
+
+variable scopes
+class variables
+instance variables
+
+
+class XYZ:
+
+    school = 'XYZ'
+
+    def __init__(self,name):
+        self.name = name
+
+    #instance methods
+    def action(self,action_tobe_taken):
+        # instance level variable
+        x  = 10
+        print(school)
+        pass
+    
+    #class methods
+    @classmethod - decorator
+    def ClsAction(cls):
+        print(cls.school)
+        print(x) - thrown an error
+
+    
+    #static method
+    @staticmethod
+    def staticMethod(first_name, last_name):
+        retun first_name + last_name
+    
+
+x = XYZ(name)
+x.action()
+XYZ.ClsAction()
+XYZ.school
+XYZ.staticMethod('sam','v')
