@@ -1,0 +1,23 @@
+Zoo - Animals - various 
+
+class Animal:
+
+    def __init__(slef,name,diet):
+        self.name = name
+        self.diet = diet
+
+    def make_sound():
+        pass
+
+    def move():
+        pass
+
+
+class Tiger(Animal):
+
+    def __init__(slef,name,diet):
+        self.name = name
+        self.diet = diet
+
+    def hunt(self):
+        pass
