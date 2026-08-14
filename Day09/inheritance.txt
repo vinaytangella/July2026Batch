@@ -1,0 +1,38 @@
+#Super Class for humans
+class HumanBeing:
+
+    #super constructor
+    def __init__(self,eyes=2,ears=2,legs=2):
+        self.eyes = eyes
+        self.ears = ears
+        self.legs = legs
+
+    #props
+    eyes,ears,legs,
+    color,eye-color,height
+
+    #actions
+    talk,
+    walk,
+    run
+
+#metadata
+org,team,manger,reporting_members
+
+
+#Workday
+
+sam,har,
+roh
+
+sam = Sam()
+
+Super()
+
+we always create an object on child class not on super class
+
+class Sam(HumanBeing):
+     def __init__(self,eyes,ears,legs):
+        self.eyes = eyes
+        self.ears = ears
+        self.legs = legs
